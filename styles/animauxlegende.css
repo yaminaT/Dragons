@@ -1,0 +1,193 @@
+body {
+  background: url('../images/nuage.jpg');
+  background-size: cover;
+  text-align: center;
+  margin: 0px;
+}
+nav ul{
+  display: flex;
+  text-align: center;
+}
+nav ul li {
+  list-style: none;
+  position: relative;
+}
+nav ul li a {
+  list-style: none;
+  list-style-type: none;
+  font-size: 25px;
+  color:  White;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  margin: 0px 70px;
+  margin-right: 180px;
+}
+nav ul li ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  padding: 0;
+  width: 500px;
+}
+nav ul li:hover ul {
+  display: block;
+
+}
+nav ul li:hover ul li {
+    background: linear-gradient(blue, orange);
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  list-style: none;
+  list-style-type: none;
+  font-size: 25px;
+  color:  White;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+}
+header {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  background: rgba(156, 200, 214, 0.2);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+}
+.image {
+  margin-right: 150px;
+}
+.img6 {
+  width: 400px; height: 400px;
+position: absolute;
+left: 100px;
+top: 200px;
+}
+.img7 {
+  width: 400px; height: 400px;
+  position: absolute;
+  left: 100px;
+  top: 700px;
+}
+.img8 {
+  width: 400px; height: 400px;
+  position: absolute;
+  left: 100px;
+  top: 1200px;
+}
+.img9 {
+  width: 400px; height: 400px;
+  position: absolute;
+  left: 100px;
+  top: 1700px;
+}
+.img10 {
+  width: 400px; height: 400px;
+  position: absolute;
+  left: 100px;
+  top: 2200px;
+}
+.bourgeois{
+  position: absolute;
+  left: 500px;
+  top:200px;
+  text-align: left;
+  color: White;
+  font-size: 30px;
+  font-family: castellar;
+  font-style: oblique;
+}
+.bourgeois2{
+  position: absolute;
+  left: 500px;
+  top:700px;
+  text-align: left;
+  color: black;
+  font-size: 30px;
+  font-family: castellar;
+  font-style: oblique;
+}
+.bourgeois3{
+  position: absolute;
+  left: 500px;
+  top:1200px;
+  color: White;
+  text-align: left;
+  font-size: 30px;
+  font-family: castellar;
+  font-style: oblique;
+}
+.bourgeois4{
+  position: absolute;
+  left: 500px;
+  top:1700px;
+  color: black;
+  text-align: left;
+  font-size: 30px;
+  font-family: castellar;
+  font-style: oblique;
+}
+.bourgeois5{
+  position: absolute;
+  left: 500px;
+  top:2200px;
+  text-align: left;
+  color: black;
+  font-size: 30px;
+  font-family: castellar;
+  font-style: oblique;
+}
+.Bouton1{
+  position: absolute;
+  left: 1800px;
+  top:550px;
+  color: yellow;
+  font-size: 20px;
+  font-family: Times;
+  font-style: oblique;
+}
+.Bouton2{
+  position: absolute;
+  left: 1800px;
+  top:1100px;
+  color: yellow;
+  font-size: 20px;
+  font-family: Times;
+  font-style: oblique;
+}
+.Bouton3{
+  position: absolute;
+  left: 1800px;
+  top:1550px;
+  color: yellow;
+  font-size: 20px;
+  font-family: Times;
+  font-style: oblique;
+}
+.Bouton4{
+  position: absolute;
+  left: 1800px;
+  top:2050px;
+  color: yellow;
+  font-size: 20px;
+  font-family: Times;
+  font-style: oblique;
+}
+.Bouton5{
+  position: absolute;
+  left: 1800px;
+  top:2550px;
+  color: yellow;
+  font-size: 20px;
+  font-family: Times;
+  font-style: oblique;
+}
